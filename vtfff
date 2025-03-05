@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villa Travels & Tours - Card Acquiring Business</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #004c8c;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            background: #eef5ff;
+        }
+        .contact-info {
+            background: #d9f7d6;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            background: #004c8c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background: #004c8c;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Villa Travels & Tours - Card Acquiring Business</h1>
+        
+        <div class="section">
+            <h2>Why Choose Us?</h2>
+            <p>We are pioneers in payment solutions in the Maldives since 1998, offering seamless and secure transactions. Our services are tailored to provide ease and security for all your card processing needs.</p>
+            <ul>
+                <li>Latest Android POS Devices</li>
+                <li>Dynamic Currency Conversion (DCC)</li>
+                <li>VISA Cybersource IPG with 99.9999% uptime</li>
+                <li>Settlements credited on T+1 basis</li>
+                <li>Dedicated team for chargebacks & disputes</li>
+                <li>Fraud prevention & PCI DSS compliance</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Download Documents</h2>
+            <p><strong>Required Documents:</strong></p>
+            <a href="#" class="button">Download All Required Documents</a>
+            <p><strong>Sample Documents:</strong></p>
+            <a href="#" class="button">Download Sample Documents</a>
+        </div>
+
+        <div class="section">
+            <h2>Upload Filled Documents</h2>
+            <a href="#" class="button">Upload Documents</a>
+        </div>
+
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>We are here to assist you 24/7. Contact our team for inquiries.</p>
+            <p>Asad: <a href="tel:+9607779167">+960 777-9167</a> | <a href="https://wa.me/9607779167">Chat on WhatsApp</a></p>
+            <p>Imran: <a href="tel:+9607510581">+960 751-0581</a> | <a href="https://wa.me/9607510581">Chat on WhatsApp</a></p>
+            <p>Gayan: <a href="tel:+9607765181">+960 776-5181</a> | <a href="https://wa.me/9607765181">Chat on WhatsApp</a></p>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2025 Villa Travels & Tours. All Rights Reserved.
+    </div>
+</body>
+</html>
