@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villa Travels & Tours - Card Acquiring Business</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e8f0fe;
+            color: #333;
+        }
+        header {
+            background-color: #243c5a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #3a5a85;
+            padding: 15px;
+        }
+        nav a {
+            color: white;
+            padding: 14px 25px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #5cb8e4;
+            border-radius: 5px;
+        }
+        .container {
+            padding: 30px;
+        }
+        .services {
+            margin-bottom: 30px;
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-top: 30px;
+            border-left: 10px solid #1abc9c;
+        }
+        .services h2 {
+            color: #243c5a;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .services p {
+            color: #555;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .services ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .services ul li {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 12px;
+            margin: 8px 0;
+            font-size: 16px;
+            text-align: left;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .services ul li:hover {
+            background-color: #e0f7fa;
+        }
+        .button {
+            background-color: #1abc9c;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            margin: 10px 10px;
+            border-radius: 8px;
+        }
+        .button:hover {
+            background-color: #16a085;
+        }
+        .whatsapp-chat {
+            background-color: #25D366;
+            color: white;
+            padding: 12px 25px;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            display: inline-block;
+            margin-top: 15px;
+        }
+        .whatsapp-chat:hover {
+            background-color: #1EBE5D;
+        }
+        footer {
+            background-color: #3a5a85;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 16px;
+            font-weight: bold;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        select {
+            font-size: 16px;
+            padding: 10px;
+            width: 100%;
+            max-width: 400px;
+            margin-top: 10px;
+        }
+        .download-links a {
+            display: block;
+            margin: 10px 0;
+            font-size: 16px;
+            color: #5cb8e4;
+            font-weight: bold;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .download-links a:hover {
+            color: #243c5a;
+        }
+        .download-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .contact a {
+            display: block;
+            margin-top: 15px;
+        }
+        .contact ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .contact ul li {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>Villa Travels & Tours - Card Acquiring Business</header>
+
+    <nav>
+        <a href="#services">Our Services</a>
+        <a href="#documents">Documents</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <div class="container">
+        <section id="services" class="services">
+            <h2>Why Choose Us?</h2>
+            <p>We are pioneers in payment solutions in the Maldives since 1998, offering seamless and secure transactions. Our services are tailored to provide ease and security for all your card processing needs. Here are the key advantages of working with us:</p>
+            <ul>
+                <li>Latest Android POS Devices</li>
+                <li>Dynamic Currency Conversion (DCC)</li>
+                <li>VISA Cybersource IPG with 99.9999% uptime</li>
+                <li>Settlements credited on T+1 basis</li>
+                <li>Dedicated team for chargebacks & disputes</li>
+                <li>Fraud prevention & PCI DSS compliance</li>
+            </ul>
+        </section>
+
+        <section id="documents" class="documents">
+            <h2>Download Documents</h2>
+            <div class="download-container">
+                <div>
+                    <label for="required-documents">Required Documents</label>
+                    <select id="required-documents">
+                        <option value="merchant-application">Merchant Application</option>
+                        <option value="board-resolution">Board Resolution</option>
+                        <option value="indemnity-form">Indemnity Form</option>
+                        <option value="business-registration">Business Registration</option>
+                        <option value="list-of-directors">List of Directors</option>
+                        <option value="passport-copies">Passport Copies of Directors</option>
+                    </select>
+                    <button class="button">Download All Required Documents</button>
+                </div>
+
+                <div>
+                    <label for="sample-documents">Sample Documents</label>
+                    <select id="sample-documents">
+                        <option value="sample-merchant-application">Sample Merchant Application</option>
+                        <option value="sample-board-resolution">Sample Board Resolution</option>
+                        <option value="sample-indemnity-form">Sample Indemnity Form</option>
+                        <option value="sample-business-registration">Sample Business Registration</option>
+                        <option value="sample-list-of-directors">Sample List of Directors</option>
+                        <option value="sample-passport-copies">Sample Passport Copies of Directors</option>
+                    </select>
+                    <button class="button">Download Sample Documents</button>
+                </div>
+            </div>
+
+            <h2>Upload Filled Documents</h2>
+            <button class="button">Upload Documents</button>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Get in Touch</h2>
+            <p>We are here to assist you 24/7. Contact our team for inquiries.</p>
+            <ul>
+                <li>Asad: +960 777-9167</li>
+                <li>Imran: +960 751-0581</li>
+                <li>Gayan: +960 776-5181</li>
+            </ul>
+            <a href="https://wa.me/9607779167" class="whatsapp-chat" target="_blank">Chat with Asad on WhatsApp</a>
+            <a href="https://wa.me/9607510581" class="whatsapp-chat" target="_blank">Chat with Imran on WhatsApp</a>
+            <a href="https://wa.me/9607765181" class="whatsapp-chat" target="_blank">Chat with Gayan on WhatsApp</a>
+        </section>
+    </div>
+
+    <footer>&copy; 2025 Villa Travels & Tours. All Rights Reserved.</footer>
+
+</body>
+</html>
